@@ -16,7 +16,7 @@ It provides a Facade that wraps the Gocardless PHP client and also an easy way t
 Get the package with composer:
 
 ```bash
-composer require nestednet/gocardless-laravel
+composer require benjaminbowles/gocardless-laravel
 ```
 
 **1.** If you are using Laravel >5.5 the package will be autodiscobered, for older versions add the service provider at your config/app.php file.
