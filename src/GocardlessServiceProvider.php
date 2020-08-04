@@ -16,7 +16,7 @@
  * @link       https://nested.net
  */
 
-namespace Nestednet\Gocardless;
+namespace Benjaminbowles\Gocardless;
 
 use GoCardlessPro\Client;
 use Illuminate\Support\Facades\Route;
@@ -43,7 +43,7 @@ class GocardlessServiceProvider extends ServiceProvider
         }
 
         Route::macro('gocardlessWebhooks', function ($url) {
-            return Route::post($url, '\Nestednet\Gocardless\Controllers\GocardlessWebhookController');
+            return Route::post($url, '\Benjaminbowles\Gocardless\Controllers\GocardlessWebhookController');
         });
     }
 

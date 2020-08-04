@@ -6,12 +6,12 @@
  * Time: 13:06
  */
 
-namespace Nestednet\Gocardless\Middlewares;
+namespace Benjaminbowles\Gocardless\Middlewares;
 
 use Closure;
 use Exception;
 use GoCardlessPro\Webhook;
-use Nestednet\Gocardless\Exceptions\WebhookFailed;
+use Benjaminbowles\Gocardless\Exceptions\WebhookFailed;
 
 class VerifySignature
 {

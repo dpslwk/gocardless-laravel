@@ -3,7 +3,7 @@
   "description": "GoCardless Pro PHP Client package integration for Laravel.",
   "keywords": [
     "php",
-    "nestednet",
+    "Benjaminbowles",
     "laravel",
     "gocardless"
   ],
@@ -25,16 +25,16 @@
   },
   "autoload": {
     "psr-4": {
-      "Nestednet\\Gocardless\\": "src/"
+      "Benjaminbowles\\Gocardless\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Nestednet\\Gocardless\\GocardlessServiceProvider"
+        "Benjaminbowles\\Gocardless\\GocardlessServiceProvider"
       ],
       "aliases": {
-        "Gocardless": "Nestednet\\Gocardless\\Facades\\Gocardless"
+        "Gocardless": "Benjaminbowles\\Gocardless\\Facades\\Gocardless"
       }
     }
   },

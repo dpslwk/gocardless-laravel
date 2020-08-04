@@ -6,11 +6,11 @@
  * Time: 13:08
  */
 
-namespace Nestednet\Gocardless;
+namespace Benjaminbowles\Gocardless;
 
 use Exception;
 use Illuminate\Database\Eloquent\Model;
-use Nestednet\Gocardless\Exceptions\WebhookFailed;
+use Benjaminbowles\Gocardless\Exceptions\WebhookFailed;
 
 class GocardlessWebhookCall extends Model
 {

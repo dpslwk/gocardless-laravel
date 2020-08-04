@@ -39,7 +39,7 @@ return [
         /**
          * Your Gocardless webhook model. The class should be or extend GocardlessWebhookCall.
          */
-        'model' => Nestednet\Gocardless\GocardlessWebhookCall::class,
+        'model' => Benjaminbowles\Gocardless\GocardlessWebhookCall::class,
 
         /**
          * Define here the jobs that should run when a gocardless webhook hits your application.

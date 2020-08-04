@@ -1,9 +1,9 @@
 # gocardless-laravel
-[![Build Status](https://travis-ci.com/Nestednet/gocardless-laravel.svg?branch=master)](https://travis-ci.com/Nestednet/gocardless-laravel)
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Nestednet/gocardless-laravel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Nestednet/gocardless-laravel/?branch=master)
-[![Latest Stable Version](https://poser.pugx.org/nestednet/gocardless-laravel/v/stable)](https://packagist.org/packages/nestednet/gocardless-laravel)
-[![Latest Unstable Version](https://poser.pugx.org/nestednet/gocardless-laravel/v/unstable)](https://packagist.org/packages/nestednet/gocardless-laravel)
-[![License](https://poser.pugx.org/nestednet/gocardless-laravel/license)](https://packagist.org/packages/nestednet/gocardless-laravel)
+[![Build Status](https://travis-ci.com/Benjaminbowles/gocardless-laravel.svg?branch=master)](https://travis-ci.com/Benjaminbowles/gocardless-laravel)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Benjaminbowles/gocardless-laravel/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/Benjaminbowles/gocardless-laravel/?branch=master)
+[![Latest Stable Version](https://poser.pugx.org/Benjaminbowles/gocardless-laravel/v/stable)](https://packagist.org/packages/Benjaminbowles/gocardless-laravel)
+[![Latest Unstable Version](https://poser.pugx.org/Benjaminbowles/gocardless-laravel/v/unstable)](https://packagist.org/packages/Benjaminbowles/gocardless-laravel)
+[![License](https://poser.pugx.org/Benjaminbowles/gocardless-laravel/license)](https://packagist.org/packages/Benjaminbowles/gocardless-laravel)
 
 ##### GoCardless Pro PHP Client package integration for Laravel.
 
@@ -23,7 +23,7 @@ composer require benjaminbowles/gocardless-laravel
 
 **2.** Publish the configuration file
 ```bash
-$ php artisan vendor:publish --provider="Nestednet\Gocardless\GocardlessServiceProvider"
+$ php artisan vendor:publish --provider="Benjaminbowles\Gocardless\GocardlessServiceProvider"
 ```
 This will publish both the configuration file and the migration file.
 
